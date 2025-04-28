@@ -1,0 +1,36 @@
+#### **Input Format:**
+**Webpage Screenshot:** An image showing the webpage’s content.
+
+---
+
+#### **Task:**
+Determine whether the provided webpage screenshot represents a **Product Listing Page (PLP)** or a **Product Detail Page (PDP)**. Specifically, classify it as a Product Listing Page (PLP) if it displays multiple product listings; if it shows only a single product with detailed information, it should be classified as a Product Detail Page (PDP).
+
+---
+
+#### **Definitions:**
+
+**Product Listing Page (PLP):**
+Displays **3 or more product listings** in a structured layout.
+Contains product images, names, prices, and brief information for each product.
+Intended for browsing a range of products.
+
+**Product Detail Page (PDP):**
+Focuses on a **single product**.
+Provides detailed information such as specifications, descriptions, and reviews.
+Lacks multiple product listings.
+
+---
+
+#### **Example:**
+
+**Screenshot:** A webpage showing several running shoe listings with images, prices, and brief descriptions.  
+**Expected Output:** Yes
+
+---
+
+#### **Output Format:**
+Yes if the page is a roduct Listing Page (PLP).
+No if the page is a Product Detail Page (PDP).
+
+**Your response should only contain `Yes` or `No` without any additional comments or suggestions.**
